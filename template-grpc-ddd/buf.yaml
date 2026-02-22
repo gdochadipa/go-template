@@ -1,0 +1,8 @@
+version: v1
+name: buf.build/user/template-grpc-ddd
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
