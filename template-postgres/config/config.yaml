@@ -1,0 +1,13 @@
+app:
+  name: "go-template-postgres"
+  env: "dev"
+
+server:
+  port: "8080"
+
+log:
+  level: "debug"
+
+db:
+  driver: "pgx"
+  source: "postgresql://user:password@localhost:5432/dbname?sslmode=disable"

@@ -1,0 +1,9 @@
+app:
+  name: "go-template-nodbm"
+  env: "dev"
+
+server:
+  port: "8080"
+
+log:
+  level: "debug"

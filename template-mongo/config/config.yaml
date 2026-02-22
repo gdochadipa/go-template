@@ -1,0 +1,13 @@
+app:
+  name: "go-template-mongo"
+  env: "dev"
+
+server:
+  port: "8080"
+
+log:
+  level: "debug"
+
+db:
+  uri: "mongodb://localhost:27017"
+  database: "go_template"

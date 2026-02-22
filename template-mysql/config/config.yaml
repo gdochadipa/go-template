@@ -1,0 +1,13 @@
+app:
+  name: "go-template-mysql"
+  env: "dev"
+
+server:
+  port: "8080"
+
+log:
+  level: "debug"
+
+db:
+  driver: "mysql"
+  source: "root:password@tcp(localhost:3306)/dbname?parseTime=true"

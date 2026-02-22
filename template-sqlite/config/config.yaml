@@ -1,0 +1,13 @@
+app:
+  name: "go-template-sqlite"
+  env: "dev"
+
+server:
+  port: "8080"
+
+log:
+  level: "debug"
+
+db:
+  driver: "sqlite"
+  source: "./data.db"
